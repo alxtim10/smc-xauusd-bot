@@ -40,15 +40,15 @@ trading_bot/
 
 ## Prerequisites (macOS)
 
-| Tool | Minimum version | Install |
-|------|----------------|---------|
-| Python | 3.10 | `brew install python@3.12` |
+| Tool | Required version | Install |
+|------|-----------------|---------|
+| Python | **3.12** (3.10/3.11 also work) | `brew install python@3.12` |
 | pip | 23+ | bundled with Python |
 | Git | any | `brew install git` |
 | Homebrew | any | [brew.sh](https://brew.sh) |
 
-> **Apple Silicon (M1/M2/M3):** All dependencies support `arm64` natively.  
-> If you hit a build error for a C extension, run `arch -x86_64 pip install <pkg>` as a fallback.
+> **Apple Silicon (M1/M2/M3):** All dependencies ship `arm64` wheels.  
+> If a C-extension fails to build, prepend `arch -x86_64` to the pip command as a fallback.
 
 ---
 
@@ -64,19 +64,31 @@ cd trading-bot
 ### 2. Create and activate a virtual environment
 
 ```bash
-python3 -m venv .venv
+python3.12 -m venv .venv        # pin to 3.12 explicitly
 source .venv/bin/activate
 ```
 
-> Your prompt should now show `(.venv)`.  
-> To deactivate at any time: `deactivate`
+> Your prompt will show `(.venv)`. To deactivate: `deactivate`
 
 ### 3. Upgrade pip and install dependencies
 
 ```bash
 pip install --upgrade pip
+
+# pandas-ta has no py3.12 wheel on PyPI; requirements.txt pulls it
+# from GitHub automatically — Git must be installed (brew install git).
 pip install -r requirements.txt
 ```
+
+> **Why the GitHub install for `pandas-ta`?**  
+> The last PyPI release used the invalid version tag `0.3.14b` (missing the `0` suffix)
+> and has no Python 3.12 wheel. The `development` branch on GitHub contains both fixes.
+> The `requirements.txt` entry handles this automatically:
+> ```
+> pandas-ta @ git+https://github.com/twopirllc/pandas-ta.git@development
+> ```
+> If you prefer to avoid the Git dependency, you can drop `pandas-ta` and use `ta`
+> (also included) which covers the most common indicators.
 
 ### 4. Configure environment variables
 

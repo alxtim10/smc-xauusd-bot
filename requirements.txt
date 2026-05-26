@@ -9,13 +9,16 @@ pandas==2.2.2
 scipy==1.13.1
 
 # ── Market Data ───────────────────────────────────────────────────────────────
-yfinance==0.2.38
+yfinance==0.2.40
 ccxt==4.3.20                  # crypto exchange connectivity
-alpaca-py==0.20.0             # Alpaca Markets REST + WebSocket
+alpaca-py==0.26.0             # Alpaca Markets REST + WebSocket (py3.12-compatible)
 
 # ── Technical Analysis ────────────────────────────────────────────────────────
-ta==0.11.0                    # technical-analysis indicators
-pandas-ta==0.3.14b            # extended TA library
+# ta: pure-Python TA indicators, no numpy ABI issues
+ta==0.11.0
+# pandas-ta 0.3.14b0 requires numpy<2 and has no py3.12 wheel on PyPI;
+# install directly from GitHub where the fix is merged:
+pandas-ta @ git+https://github.com/twopirllc/pandas-ta.git@development
 
 # ── Scheduling & Async ───────────────────────────────────────────────────────
 apscheduler==3.10.4
