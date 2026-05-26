@@ -1,0 +1,117 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Trading Bot — Settings Template
+# All secrets MUST live in .env; this file holds non-sensitive configuration.
+# ─────────────────────────────────────────────────────────────────────────────
+
+app:
+  name: "trading-bot"
+  version: "0.1.0"
+  env: "${APP_ENV}"           # development | staging | production
+  dry_run: true               # true = never send real orders
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+logging:
+  level: "INFO"               # DEBUG | INFO | WARNING | ERROR | CRITICAL
+  rotation: "00:00"           # rotate at midnight daily
+  retention: "30 days"
+  format: "{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {name}:{line} | {message}"
+  log_dir: "logs"
+  serialize: false            # true = JSON logs (useful for log aggregators)
+
+# ── Exchange / Broker ─────────────────────────────────────────────────────────
+broker:
+  name: "alpaca"              # alpaca | binance | coinbase | paper
+  paper_trading: true
+  base_url: "https://paper-api.alpaca.markets"
+  data_feed: "iex"            # iex | sip (sip requires paid plan)
+  timeout_seconds: 10
+  max_retries: 3
+  retry_backoff_factor: 1.5
+
+# ── Portfolio ─────────────────────────────────────────────────────────────────
+portfolio:
+  initial_capital: 100_000.00   # USD
+  base_currency: "USD"
+  max_open_positions: 10
+  max_portfolio_heat: 0.20      # max 20 % of capital at risk simultaneously
+
+# ── Risk Management ───────────────────────────────────────────────────────────
+risk:
+  max_position_size_pct: 0.05   # max 5 % of capital per trade
+  stop_loss_pct: 0.02           # default 2 % stop-loss
+  take_profit_pct: 0.04         # default 4 % take-profit (2:1 R/R)
+  max_daily_loss_pct: 0.05      # halt trading if daily loss exceeds 5 %
+  max_drawdown_pct: 0.15        # circuit-breaker at 15 % portfolio drawdown
+  trailing_stop: false
+  trailing_stop_pct: 0.015
+
+# ── Universe / Watchlist ──────────────────────────────────────────────────────
+universe:
+  symbols:
+    - "AAPL"
+    - "MSFT"
+    - "NVDA"
+    - "TSLA"
+    - "SPY"
+  blacklist: []
+
+# ── Strategy ─────────────────────────────────────────────────────────────────
+strategy:
+  active: "momentum"          # which strategy class to load
+  timeframe: "1D"             # 1Min | 5Min | 15Min | 1H | 1D
+  lookback_bars: 200          # bars of historical data to fetch on startup
+
+  momentum:
+    fast_period: 10
+    slow_period: 30
+    rsi_period: 14
+    rsi_overbought: 70
+    rsi_oversold: 30
+
+  mean_reversion:
+    window: 20
+    z_score_entry: 2.0
+    z_score_exit: 0.5
+
+# ── Scheduler ────────────────────────────────────────────────────────────────
+scheduler:
+  timezone: "America/New_York"
+  market_open:  "09:30"
+  market_close: "16:00"
+  pre_market_warmup_minutes: 15   # fetch data N minutes before open
+  heartbeat_seconds: 30           # live-loop polling interval
+
+# ── Database ─────────────────────────────────────────────────────────────────
+database:
+  driver: "sqlite"            # sqlite | postgresql
+  sqlite_path: "data/trading_bot.db"
+  # postgresql fields (used when driver = postgresql)
+  host: "${DB_HOST}"
+  port: 5432
+  name: "${DB_NAME}"
+  pool_size: 5
+  max_overflow: 10
+
+# ── Notifications ────────────────────────────────────────────────────────────
+notifications:
+  slack:
+    enabled: false
+    channel: "#trading-alerts"
+    events:                   # which events trigger a Slack message
+      - "order_filled"
+      - "stop_loss_hit"
+      - "daily_loss_limit"
+      - "error"
+
+  email:
+    enabled: false
+    to: "${ALERT_EMAIL}"
+    events:
+      - "daily_summary"
+      - "error"
+
+# ── Monitoring ────────────────────────────────────────────────────────────────
+monitoring:
+  prometheus:
+    enabled: false
+    port: 8000
