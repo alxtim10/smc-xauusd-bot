@@ -4,19 +4,20 @@ pyyaml==6.0.2
 loguru==0.7.2
 
 # ── Data & Numerics ───────────────────────────────────────────────────────────
-numpy==2.0.0
+# numpy 2.x: pandas 2.2.2+ supports both 1.x and 2.x; pandas-ta-classic
+# requires >=2.0.0, so we align the whole stack here.
+numpy>=2.0.0,<2.3
 pandas==2.2.2
-scipy==1.13.1
+scipy>=1.13.1
 
 # ── Market Data ───────────────────────────────────────────────────────────────
 yfinance==0.2.40
-ccxt==4.3.20                  # crypto exchange connectivity
-alpaca-py==0.26.0             # Alpaca Markets REST + WebSocket (py3.12-compatible)
+ccxt==4.3.20
+alpaca-py==0.26.0
 
 # ── Technical Analysis ────────────────────────────────────────────────────────
-# ta: pure-Python TA indicators, no numpy ABI issues
-ta==0.11.0
-pandas-ta-classic==0.6.20
+ta==0.11.0                    # pure-Python, no numpy-version constraints
+pandas-ta-classic==0.6.20    # community fork of pandas-ta; requires numpy>=2.0
 
 # ── Scheduling & Async ───────────────────────────────────────────────────────
 apscheduler==3.10.4
@@ -26,24 +27,24 @@ asyncio-throttle==1.0.2
 # ── Database ─────────────────────────────────────────────────────────────────
 sqlalchemy==2.0.31
 alembic==1.13.2
-psycopg2-binary==2.9.9        # PostgreSQL driver (optional)
-aiosqlite==0.20.0             # async SQLite
+psycopg2-binary==2.9.9
+aiosqlite==0.20.0
 
 # ── HTTP & Networking ─────────────────────────────────────────────────────────
 httpx==0.27.0
 websockets==12.0
 requests==2.32.3
-tenacity==8.3.0               # retry logic with backoff
+tenacity==8.3.0
 
 # ── Validation & Config ───────────────────────────────────────────────────────
 pydantic==2.7.4
 pydantic-settings==2.3.4
 
 # ── Notifications ────────────────────────────────────────────────────────────
-slack-sdk==3.29.0             # Slack alerts
-sendgrid==6.11.0              # email alerts (optional)
+slack-sdk==3.29.0
+sendgrid==6.11.0
 
-# ── Monitoring & Observability ────────────────────────────────────────────────
+# ── Monitoring ────────────────────────────────────────────────────────────────
 prometheus-client==0.20.0
 
 # ── Testing ──────────────────────────────────────────────────────────────────
@@ -51,7 +52,7 @@ pytest==8.2.2
 pytest-asyncio==0.23.7
 pytest-cov==5.0.0
 pytest-mock==3.14.0
-freezegun==1.5.1              # freeze time in tests
+freezegun==1.5.1
 
 # ── Dev & Linting ─────────────────────────────────────────────────────────────
 black==24.4.2
@@ -59,4 +60,12 @@ isort==5.13.2
 flake8==7.1.0
 mypy==1.10.1
 pre-commit==3.7.1
-ipykernel==6.29.4             # Jupyter notebook support
+ipykernel==6.29.4
+
+# ── MetaTrader 5 (Windows only) ───────────────────────────────────────────────
+# MetaTrader5 has no macOS/Linux wheel; it's skipped automatically on
+# non-Windows platforms. The MT5Client falls back to stub mode when absent.
+MetaTrader5>=5.0.45; sys_platform == "win32"
+
+# ── Parquet support (for HistoryManager cache) ────────────────────────────────
+pyarrow>=16.0.0

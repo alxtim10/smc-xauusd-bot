@@ -115,3 +115,23 @@ monitoring:
   prometheus:
     enabled: false
     port: 8000
+
+# ── MetaTrader 5 ──────────────────────────────────────────────────────────────
+mt5:
+  symbol: "XAUUSD"
+  timeframes:
+    - "M5"
+    - "M15"
+    - "H1"
+    - "H4"
+  history_bars: 2000              # bars fetched on startup warm-up
+  tick_poll_interval_ms: 500      # live tick polling frequency
+  connection:
+    timeout_ms: 60000
+    max_retries: 5
+    backoff_base: 2.0             # seconds; wait = base^attempt
+    backoff_max: 60.0
+
+history_cache:
+  dir: "data/history"
+  max_bars_per_request: 5000

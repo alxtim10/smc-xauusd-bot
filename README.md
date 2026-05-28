@@ -75,20 +75,17 @@ source .venv/bin/activate
 ```bash
 pip install --upgrade pip
 
-# pandas-ta has no py3.12 wheel on PyPI; requirements.txt pulls it
-# from GitHub automatically — Git must be installed (brew install git).
+# pandas-ta original repo was deleted from GitHub. requirements.txt uses
+# pandas-ta-classic, the community-maintained PyPI fork, instead.
 pip install -r requirements.txt
 ```
 
-> **Why the GitHub install for `pandas-ta`?**  
-> The last PyPI release used the invalid version tag `0.3.14b` (missing the `0` suffix)
-> and has no Python 3.12 wheel. The `development` branch on GitHub contains both fixes.
-> The `requirements.txt` entry handles this automatically:
-> ```
-> pandas-ta @ git+https://github.com/twopirllc/pandas-ta.git@development
-> ```
-> If you prefer to avoid the Git dependency, you can drop `pandas-ta` and use `ta`
-> (also included) which covers the most common indicators.
+> **Why `pandas-ta-classic` instead of `pandas-ta`?**  
+> The original `pandas-ta` repo (`twopirllc/pandas-ta`) was deleted from GitHub and its
+> last PyPI release used an invalid version tag (`0.3.14b`). `pandas-ta-classic` is the
+> actively-maintained community fork — it's a drop-in replacement (same `import pandas_ta as ta`
+> API), has 192 indicators, supports Python 3.10–3.14, and installs cleanly from PyPI with no
+> Git dependency. If you only need basic indicators, `ta` (also included) works too.
 
 ### 4. Configure environment variables
 

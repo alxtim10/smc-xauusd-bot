@@ -1,0 +1,3 @@
+2026-05-28 12:26:25.478 | ERROR    | src.mt5.client:237 | MT5 connection failed after 5 attempts: always fails
+2026-05-28 12:32:55.112 | ERROR    | src.mt5.client:237 | MT5 connection failed after 5 attempts: always fails
+2026-05-28 19:54:47.924 | ERROR    | src.mt5.client:237 | MT5 connection failed after 5 attempts: always fails

@@ -1,0 +1,592 @@
+2026-05-28 12:26:25.354 | WARNING  | src.mt5.client:44 | MetaTrader5 package not found. MT5Client will operate in STUB mode — no real orders or data.
+2026-05-28 12:26:25.377 | WARNING  | src.mt5.history:80 | pyarrow/fastparquet not installed — history cache will use CSV. Add 'pyarrow' to requirements.txt for faster Parquet storage.
+2026-05-28 12:26:25.395 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.395 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.395 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.395 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.396 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.396 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.397 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.397 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.397 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.397 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.397 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.397 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.399 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.399 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.399 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.399 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.399 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.399 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.400 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.401 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.401 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.401 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.401 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.402 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 12:26:25.402 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.402 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.402 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.402 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.402 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.403 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.403 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.404 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.404 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.404 | WARNING  | src.mt5.client:241 | MT5 connect attempt 1 failed: simulated failure. Retrying in 0.1s …
+2026-05-28 12:26:25.460 | INFO     | src.mt5.client:225 | MT5 connect attempt 2/5
+2026-05-28 12:26:25.460 | WARNING  | src.mt5.client:241 | MT5 connect attempt 2 failed: simulated failure. Retrying in 0.0s …
+2026-05-28 12:26:25.463 | INFO     | src.mt5.client:225 | MT5 connect attempt 3/5
+2026-05-28 12:26:25.463 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.464 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.464 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.464 | WARNING  | src.mt5.client:241 | MT5 connect attempt 1 failed: always fails. Retrying in 0.0s …
+2026-05-28 12:26:25.477 | INFO     | src.mt5.client:225 | MT5 connect attempt 2/5
+2026-05-28 12:26:25.477 | WARNING  | src.mt5.client:241 | MT5 connect attempt 2 failed: always fails. Retrying in 0.0s …
+2026-05-28 12:26:25.477 | INFO     | src.mt5.client:225 | MT5 connect attempt 3/5
+2026-05-28 12:26:25.478 | WARNING  | src.mt5.client:241 | MT5 connect attempt 3 failed: always fails. Retrying in 0.0s …
+2026-05-28 12:26:25.478 | INFO     | src.mt5.client:225 | MT5 connect attempt 4/5
+2026-05-28 12:26:25.478 | WARNING  | src.mt5.client:241 | MT5 connect attempt 4 failed: always fails. Retrying in 0.0s …
+2026-05-28 12:26:25.478 | INFO     | src.mt5.client:225 | MT5 connect attempt 5/5
+2026-05-28 12:26:25.478 | ERROR    | src.mt5.client:237 | MT5 connection failed after 5 attempts: always fails
+2026-05-28 12:26:25.479 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.479 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.480 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.480 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.480 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.481 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.481 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.482 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.482 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.482 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.482 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.483 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.483 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.484 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.485 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.485 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.485 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.485 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.488 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M5
+2026-05-28 12:26:25.488 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.488 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.489 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.489 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.489 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.489 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.490 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:26:25.491 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.491 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.491 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.491 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.491 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.491 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.492 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.492 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.493 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.493 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.493 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.493 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.493 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.494 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:26:25.494 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.494 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.495 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.495 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.495 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.495 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.496 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.496 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.497 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.497 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.497 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.497 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.497 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.498 | INFO     | src.mt5.client:496 | Fetching multi-TF OHLC | symbol=XAUUSD timeframes=['M5', 'M15', 'H1', 'H4'] count=30
+2026-05-28 12:26:25.498 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M5
+2026-05-28 12:26:25.498 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:26:25.499 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.499 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:26:25.500 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.500 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.500 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.501 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.501 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.502 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.502 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.502 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.502 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.502 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.503 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 12:26:25.503 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.503 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 12:26:25.503 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.503 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.504 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.504 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.505 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.506 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.507 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:26:25.507 | WARNING  | src.mt5.symbol_info:252 | lot_size_for_risk: invalid stop_loss_pts=0 or tick_value=1.0
+2026-05-28 12:26:25.507 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.507 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.508 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.508 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.511 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_fetch_returns_fetch_resul0/history parquet_engine=None
+2026-05-28 12:26:25.512 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=100 force=False
+2026-05-28 12:26:25.512 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.524 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=100 new=100 from_cache=False
+2026-05-28 12:26:25.525 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.525 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.525 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.525 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.525 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.526 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.527 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_dataframe_index_is_utc0/history parquet_engine=None
+2026-05-28 12:26:25.527 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=50 force=False
+2026-05-28 12:26:25.528 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:26:25.529 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=50 new=50 from_cache=False
+2026-05-28 12:26:25.530 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.530 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.530 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.530 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.530 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.530 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.532 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_second_fetch_uses_cache0/history parquet_engine=None
+2026-05-28 12:26:25.532 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=80 force=False
+2026-05-28 12:26:25.533 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.534 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=80 new=80 from_cache=False
+2026-05-28 12:26:25.535 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=80 force=False
+2026-05-28 12:26:25.541 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.544 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=80 new=2 from_cache=False
+2026-05-28 12:26:25.544 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.544 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.545 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.545 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.545 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.545 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.546 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_force_refresh_ignores_cac0/history parquet_engine=None
+2026-05-28 12:26:25.546 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 12:26:25.547 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.548 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=50 from_cache=False
+2026-05-28 12:26:25.548 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=True
+2026-05-28 12:26:25.548 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.550 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=50 from_cache=False
+2026-05-28 12:26:25.550 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.550 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.551 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.551 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.551 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.551 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.552 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_invalidate_removes_cache_0/history parquet_engine=None
+2026-05-28 12:26:25.552 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=30 force=False
+2026-05-28 12:26:25.553 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:26:25.554 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=30 new=30 from_cache=False
+2026-05-28 12:26:25.554 | INFO     | src.mt5.history:292 | Cache invalidated | /private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_invalidate_removes_cache_0/history/XAUUSD/H4.csv
+2026-05-28 12:26:25.554 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.555 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.555 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.555 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.555 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.555 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.556 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_invalidate_all0/history parquet_engine=None
+2026-05-28 12:26:25.556 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 12:26:25.557 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.558 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 12:26:25.558 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M5 bars=20 force=False
+2026-05-28 12:26:25.558 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M5
+2026-05-28 12:26:25.559 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M5 total=20 new=20 from_cache=False
+2026-05-28 12:26:25.561 | INFO     | src.mt5.history:304 | All caches invalidated | 2 files removed
+2026-05-28 12:26:25.561 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.561 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:26:25.561 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=TestBroker-Demo stub=True
+2026-05-28 12:26:25.561 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:26:25.562 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:26:25.562 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=TestBroker-Demo
+2026-05-28 12:26:25.562 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-1/test_from_date_filter0/history parquet_engine=None
+2026-05-28 12:26:25.563 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=500 force=False
+2026-05-28 12:26:25.563 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:26:25.569 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=500 new=500 from_cache=False
+2026-05-28 12:26:25.570 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:26:25.570 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:54.943 | WARNING  | src.mt5.client:44 | MetaTrader5 package not found. MT5Client will operate in STUB mode — no real orders or data.
+2026-05-28 12:32:54.948 | WARNING  | src.mt5.history:80 | pyarrow/fastparquet not installed — history cache will use CSV. Add 'pyarrow' to requirements.txt for faster Parquet storage.
+2026-05-28 12:32:54.964 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:54.964 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:54.964 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:54.964 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:54.966 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:54.967 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:54.967 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:54.967 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:54.967 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:54.967 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:54.967 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:54.968 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:54.968 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:54.968 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:54.968 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:54.968 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:54.968 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:54.969 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:54.970 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.019 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.026 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.033 | INFO     | src.mt5.client:197 | MT5Client initialised | login=99999999 server=Override-Server stub=True
+2026-05-28 12:32:55.033 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 12:32:55.033 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.034 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 12:32:55.039 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 12:32:55.039 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.039 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 12:32:55.040 | INFO     | src.mt5.symbol_info:190 | Refreshing symbol spec | XAUUSD
+2026-05-28 12:32:55.040 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 12:32:55.040 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.040 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 12:32:55.041 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.043 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.044 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.044 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.045 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.045 | WARNING  | src.mt5.symbol_info:252 | lot_size_for_risk: invalid stop_loss_pts=0 or tick_value=1.0
+2026-05-28 12:32:55.045 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 12:32:55.050 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.056 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.097 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M5
+2026-05-28 12:32:55.098 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.098 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.099 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:32:55.100 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.100 | INFO     | src.mt5.client:496 | Fetching multi-TF OHLC | symbol=XAUUSD timeframes=['M5', 'M15', 'H1', 'H4'] count=20
+2026-05-28 12:32:55.101 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M5
+2026-05-28 12:32:55.101 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.101 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.102 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:32:55.102 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.102 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.103 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.103 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:55.103 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:55.104 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.104 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.104 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.105 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.105 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 12:32:55.105 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:55.105 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:55.105 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.105 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.105 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.105 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.106 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:55.106 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.107 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.107 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:55.107 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 12:32:55.108 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.108 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.108 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.108 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.109 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.110 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.110 | WARNING  | src.mt5.client:241 | MT5 connect attempt 1 failed: simulated. Retrying in 2.0s …
+2026-05-28 12:32:55.110 | INFO     | src.mt5.client:225 | MT5 connect attempt 2/5
+2026-05-28 12:32:55.110 | WARNING  | src.mt5.client:241 | MT5 connect attempt 2 failed: simulated. Retrying in 4.0s …
+2026-05-28 12:32:55.110 | INFO     | src.mt5.client:225 | MT5 connect attempt 3/5
+2026-05-28 12:32:55.110 | WARNING  | src.mt5.client:241 | MT5 connect attempt 3 failed: simulated. Retrying in 8.0s …
+2026-05-28 12:32:55.110 | INFO     | src.mt5.client:225 | MT5 connect attempt 4/5
+2026-05-28 12:32:55.110 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.111 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.111 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.111 | WARNING  | src.mt5.client:241 | MT5 connect attempt 1 failed: always fails. Retrying in 2.0s …
+2026-05-28 12:32:55.111 | INFO     | src.mt5.client:225 | MT5 connect attempt 2/5
+2026-05-28 12:32:55.112 | WARNING  | src.mt5.client:241 | MT5 connect attempt 2 failed: always fails. Retrying in 4.0s …
+2026-05-28 12:32:55.112 | INFO     | src.mt5.client:225 | MT5 connect attempt 3/5
+2026-05-28 12:32:55.112 | WARNING  | src.mt5.client:241 | MT5 connect attempt 3 failed: always fails. Retrying in 8.0s …
+2026-05-28 12:32:55.112 | INFO     | src.mt5.client:225 | MT5 connect attempt 4/5
+2026-05-28 12:32:55.112 | WARNING  | src.mt5.client:241 | MT5 connect attempt 4 failed: always fails. Retrying in 16.0s …
+2026-05-28 12:32:55.112 | INFO     | src.mt5.client:225 | MT5 connect attempt 5/5
+2026-05-28 12:32:55.112 | ERROR    | src.mt5.client:237 | MT5 connection failed after 5 attempts: always fails
+2026-05-28 12:32:55.113 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.113 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 12:32:55.113 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 12:32:55.113 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 12:32:55.116 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 12:32:55.119 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_01_fetch_returns_fetch_re0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.119 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=100 force=False
+2026-05-28 12:32:55.120 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.123 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=100 new=100 from_cache=False
+2026-05-28 12:32:55.125 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_02_data_is_dataframe0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.125 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=100 force=False
+2026-05-28 12:32:55.125 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.127 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=100 new=100 from_cache=False
+2026-05-28 12:32:55.128 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_03_100_bars_returned0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.128 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=100 force=False
+2026-05-28 12:32:55.129 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.130 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=100 new=100 from_cache=False
+2026-05-28 12:32:55.132 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_04_cache_file_is_created0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.132 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 12:32:55.132 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.133 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=50 from_cache=False
+2026-05-28 12:32:55.135 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_05_second_fetch_reads_fro0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.135 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 12:32:55.135 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.136 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=50 from_cache=False
+2026-05-28 12:32:55.137 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 12:32:55.145 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.147 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=2 from_cache=False
+2026-05-28 12:32:55.148 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_06_force_refresh_bypasses0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.148 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=30 force=False
+2026-05-28 12:32:55.149 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:32:55.150 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=30 new=30 from_cache=False
+2026-05-28 12:32:55.150 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=30 force=True
+2026-05-28 12:32:55.150 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:32:55.151 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=30 new=30 from_cache=False
+2026-05-28 12:32:55.152 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_07_from_date_filters_resu0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.153 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=500 force=False
+2026-05-28 12:32:55.153 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.157 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=500 new=500 from_cache=False
+2026-05-28 12:32:55.158 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_08_invalidate_removes_cac0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.158 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=20 force=False
+2026-05-28 12:32:55.159 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H4
+2026-05-28 12:32:55.160 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.160 | INFO     | src.mt5.history:292 | Cache invalidated | /private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_08_invalidate_removes_cac0/mt5_history/XAUUSD/H4.csv
+2026-05-28 12:32:55.161 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_09_invalidate_nonexistent0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.162 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_10_invalidate_all_clears_0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.163 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M5 bars=20 force=False
+2026-05-28 12:32:55.163 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M5
+2026-05-28 12:32:55.164 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M5 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.164 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=20 force=False
+2026-05-28 12:32:55.165 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.166 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.166 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 12:32:55.166 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.167 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.168 | INFO     | src.mt5.history:304 | All caches invalidated | 3 files removed
+2026-05-28 12:32:55.170 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_11_cache_info_returns_lis0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.170 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 12:32:55.170 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.171 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.176 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_12_cache_info_fields_pres0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.177 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 12:32:55.177 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.178 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.182 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_13_data_index_is_utc0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.183 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=30 force=False
+2026-05-28 12:32:55.183 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.184 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=30 new=30 from_cache=False
+2026-05-28 12:32:55.185 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_14_data_is_sorted_ascendi0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.186 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=30 force=False
+2026-05-28 12:32:55.186 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.187 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=30 new=30 from_cache=False
+2026-05-28 12:32:55.189 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.189 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD M15
+2026-05-28 12:32:55.192 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-2/test_10_fetch_result_metadata_0/mt5_history parquet_engine=None
+2026-05-28 12:32:55.192 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 12:32:55.192 | WARNING  | src.mt5.client:551 | STUB OHLC returned for XAUUSD H1
+2026-05-28 12:32:55.193 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 12:32:55.195 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 12:32:55.195 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.850 | WARNING  | src.mt5.client:44 | MetaTrader5 package not found. MT5Client will operate in STUB mode — no real orders or data.
+2026-05-28 19:54:47.854 | WARNING  | src.mt5.history:80 | pyarrow/fastparquet not installed — history cache will use CSV. Add 'pyarrow' to requirements.txt for faster Parquet storage.
+2026-05-28 19:54:47.870 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.870 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.871 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.871 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.872 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.873 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.873 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.873 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.873 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.873 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.873 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.874 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.874 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.874 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.875 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.875 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.875 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.876 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.878 | INFO     | src.mt5.client:197 | MT5Client initialised | login=99999999 server=Override-Server stub=True
+2026-05-28 19:54:47.878 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 19:54:47.879 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.879 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 19:54:47.884 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 19:54:47.884 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.884 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 19:54:47.885 | INFO     | src.mt5.symbol_info:190 | Refreshing symbol spec | XAUUSD
+2026-05-28 19:54:47.885 | INFO     | src.mt5.symbol_info:174 | Fetching symbol spec | XAUUSD
+2026-05-28 19:54:47.885 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.885 | INFO     | src.mt5.symbol_info:180 | SymbolSpec cached | SymbolSpec(XAUUSD | digits=2 spread=30pts tick_value=1.0000 contract=100.0 vol=[0.01–50.0] step=0.01)
+2026-05-28 19:54:47.886 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.887 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.888 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.888 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.889 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.889 | WARNING  | src.mt5.symbol_info:252 | lot_size_for_risk: invalid stop_loss_pts=0 or tick_value=1.0
+2026-05-28 19:54:47.889 | WARNING  | src.mt5.symbol_info:326 | STUB SymbolSpec returned for XAUUSD
+2026-05-28 19:54:47.893 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.896 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.909 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M5
+2026-05-28 19:54:47.910 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.911 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.911 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H4
+2026-05-28 19:54:47.912 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.913 | INFO     | src.mt5.client:496 | Fetching multi-TF OHLC | symbol=XAUUSD timeframes=['M5', 'M15', 'H1', 'H4'] count=20
+2026-05-28 19:54:47.913 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M5
+2026-05-28 19:54:47.913 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.914 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.914 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H4
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.915 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.915 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.916 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.916 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.916 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.916 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.917 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.917 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.918 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.918 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.918 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.918 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.918 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.919 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.919 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.919 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.919 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.919 | INFO     | src.mt5.client:512 | MT5 forced reconnect …
+2026-05-28 19:54:47.919 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.920 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.920 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.920 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:47.920 | INFO     | src.mt5.client:293 | MT5 disconnected
+2026-05-28 19:54:47.921 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.921 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.921 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.921 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.922 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.922 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.922 | WARNING  | src.mt5.client:241 | MT5 connect attempt 1 failed: simulated. Retrying in 2.0s …
+2026-05-28 19:54:47.922 | INFO     | src.mt5.client:225 | MT5 connect attempt 2/5
+2026-05-28 19:54:47.922 | WARNING  | src.mt5.client:241 | MT5 connect attempt 2 failed: simulated. Retrying in 4.0s …
+2026-05-28 19:54:47.922 | INFO     | src.mt5.client:225 | MT5 connect attempt 3/5
+2026-05-28 19:54:47.923 | WARNING  | src.mt5.client:241 | MT5 connect attempt 3 failed: simulated. Retrying in 8.0s …
+2026-05-28 19:54:47.923 | INFO     | src.mt5.client:225 | MT5 connect attempt 4/5
+2026-05-28 19:54:47.923 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.924 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.924 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.924 | WARNING  | src.mt5.client:241 | MT5 connect attempt 1 failed: always fails. Retrying in 2.0s …
+2026-05-28 19:54:47.924 | INFO     | src.mt5.client:225 | MT5 connect attempt 2/5
+2026-05-28 19:54:47.924 | WARNING  | src.mt5.client:241 | MT5 connect attempt 2 failed: always fails. Retrying in 4.0s …
+2026-05-28 19:54:47.924 | INFO     | src.mt5.client:225 | MT5 connect attempt 3/5
+2026-05-28 19:54:47.924 | WARNING  | src.mt5.client:241 | MT5 connect attempt 3 failed: always fails. Retrying in 8.0s …
+2026-05-28 19:54:47.924 | INFO     | src.mt5.client:225 | MT5 connect attempt 4/5
+2026-05-28 19:54:47.924 | WARNING  | src.mt5.client:241 | MT5 connect attempt 4 failed: always fails. Retrying in 16.0s …
+2026-05-28 19:54:47.924 | INFO     | src.mt5.client:225 | MT5 connect attempt 5/5
+2026-05-28 19:54:47.924 | ERROR    | src.mt5.client:237 | MT5 connection failed after 5 attempts: always fails
+2026-05-28 19:54:47.926 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.926 | INFO     | src.mt5.client:225 | MT5 connect attempt 1/5
+2026-05-28 19:54:47.926 | WARNING  | src.mt5.client:250 | STUB MODE: simulating MT5 connection (MT5 not installed)
+2026-05-28 19:54:47.926 | INFO     | src.mt5.client:229 | MT5 connected | login=12345678 server=ICMarkets-Demo
+2026-05-28 19:54:47.929 | INFO     | src.mt5.client:197 | MT5Client initialised | login=12345678 server=ICMarkets-Demo stub=True
+2026-05-28 19:54:47.932 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_01_fetch_returns_fetch_re0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.932 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=100 force=False
+2026-05-28 19:54:47.933 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.937 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=100 new=100 from_cache=False
+2026-05-28 19:54:47.939 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_02_data_is_dataframe0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.939 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=100 force=False
+2026-05-28 19:54:47.940 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.941 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=100 new=100 from_cache=False
+2026-05-28 19:54:47.942 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_03_100_bars_returned0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.943 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=100 force=False
+2026-05-28 19:54:47.943 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.945 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=100 new=100 from_cache=False
+2026-05-28 19:54:47.946 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_04_cache_file_is_created0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.946 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 19:54:47.947 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.948 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=50 from_cache=False
+2026-05-28 19:54:47.949 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_05_second_fetch_reads_fro0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.949 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 19:54:47.950 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.951 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=50 from_cache=False
+2026-05-28 19:54:47.951 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=50 force=False
+2026-05-28 19:54:47.956 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.958 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=50 new=2 from_cache=False
+2026-05-28 19:54:47.959 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_06_force_refresh_bypasses0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.960 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=30 force=False
+2026-05-28 19:54:47.960 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H4
+2026-05-28 19:54:47.961 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=30 new=30 from_cache=False
+2026-05-28 19:54:47.961 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=30 force=True
+2026-05-28 19:54:47.962 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H4
+2026-05-28 19:54:47.963 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=30 new=30 from_cache=False
+2026-05-28 19:54:47.964 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_07_from_date_filters_resu0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.964 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=500 force=False
+2026-05-28 19:54:47.965 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.969 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=500 new=500 from_cache=False
+2026-05-28 19:54:47.970 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_08_invalidate_removes_cac0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.970 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H4 bars=20 force=False
+2026-05-28 19:54:47.970 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H4
+2026-05-28 19:54:47.971 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H4 total=20 new=20 from_cache=False
+2026-05-28 19:54:47.972 | INFO     | src.mt5.history:292 | Cache invalidated | /private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_08_invalidate_removes_cac0/mt5_history/XAUUSD/H4.csv
+2026-05-28 19:54:47.973 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_09_invalidate_nonexistent0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.974 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_10_invalidate_all_clears_0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.975 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M5 bars=20 force=False
+2026-05-28 19:54:47.975 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M5
+2026-05-28 19:54:47.976 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M5 total=20 new=20 from_cache=False
+2026-05-28 19:54:47.976 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=20 force=False
+2026-05-28 19:54:47.976 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.977 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=20 new=20 from_cache=False
+2026-05-28 19:54:47.978 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 19:54:47.978 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.980 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 19:54:47.981 | INFO     | src.mt5.history:304 | All caches invalidated | 3 files removed
+2026-05-28 19:54:47.983 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_11_cache_info_returns_lis0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.983 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 19:54:47.984 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.985 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 19:54:47.990 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_12_cache_info_fields_pres0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.990 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 19:54:47.991 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:47.992 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 19:54:47.997 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_13_data_index_is_utc0/mt5_history parquet_engine=None
+2026-05-28 19:54:47.998 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=30 force=False
+2026-05-28 19:54:47.998 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:47.999 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=30 new=30 from_cache=False
+2026-05-28 19:54:48.000 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_14_data_is_sorted_ascendi0/mt5_history parquet_engine=None
+2026-05-28 19:54:48.001 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD M15 bars=30 force=False
+2026-05-28 19:54:48.001 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:48.002 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD M15 total=30 new=30 from_cache=False
+2026-05-28 19:54:48.004 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:48.005 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD M15
+2026-05-28 19:54:48.007 | INFO     | src.mt5.history:190 | HistoryManager initialised | cache_dir=/private/var/folders/1n/16_3y3qx1s58vgcrgq0czr_r0000gn/T/pytest-of-alxtim/pytest-3/test_10_fetch_result_metadata_0/mt5_history parquet_engine=None
+2026-05-28 19:54:48.007 | INFO     | src.mt5.history:220 | HistoryManager.fetch | XAUUSD H1 bars=20 force=False
+2026-05-28 19:54:48.008 | WARNING  | src.mt5.client:554 | STUB OHLC returned for XAUUSD H1
+2026-05-28 19:54:48.009 | INFO     | src.mt5.history:269 | fetch complete | XAUUSD H1 total=20 new=20 from_cache=False
+2026-05-28 19:54:48.010 | INFO     | src.mt5.client:285 | MT5 disconnecting …
+2026-05-28 19:54:48.010 | INFO     | src.mt5.client:293 | MT5 disconnected
